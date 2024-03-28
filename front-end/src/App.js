@@ -20,8 +20,9 @@ function App() {
   return (
     <div className="App">
       {!showChat ? (
-        <div className="joinChatContainer">
-          <h3>Join or Create</h3>
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}} className="joinChatContainer">
+          <h3>Chewata Chat</h3>
+          <h4>Join or Create</h4>
           <input
             type="text"
             placeholder="Enter Your Name"
